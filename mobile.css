@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 16px;
+}
+
+.headline {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 20px;
+}
+
+.name-title {
+  font-size: 68px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: #1a2236;
+  margin-bottom: 10px;
+}
+
+.info { 
+  color:#1a2236;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
