@@ -41,3 +41,7 @@ header {
   color: #fff;
   font-weight: 800;
 }
+
+main img {
+  width: 100%;
+}
