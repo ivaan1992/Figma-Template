@@ -103,7 +103,6 @@ main img {
   background: transparent;
   border: 1px solid #fff;
   color: #fff;
-  text-align: 10px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -117,7 +116,7 @@ main img {
 .about {
   margin-left: 16px;
   margin-right: 16px;
-  height: 50vh;
+  margin-bottom: 40px;
 }
 
 .paragraph {
@@ -125,7 +124,7 @@ main img {
   margin-top: 10px;
   margin-left: 16px;
   margin-right: 16px;
-  line-height: 25px ;
+  line-height: 25px;
   font-size: 14px;
   font-weight: 600;
   color: #1a2236;
@@ -152,7 +151,7 @@ main img {
   margin-right: 16px;
   margin-bottom: 15px;
   font-family: 'Poppins', sans-serif;
-  background:#1c528a;
+  background: #1c528a;
   background-image: url("Images/ic_languages_mob.svg");
   background-repeat: no-repeat;
   background-position-x: right;
@@ -161,7 +160,7 @@ main img {
 
 .skills-pink {
   height: 280px;
-  background: #E2505C;
+  background: #e2505c;
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 15px;
@@ -174,7 +173,7 @@ main img {
 
 .skills-yellow {
   height: 280px;
-  background: #FEBF52;
+  background: #febf52;
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 50px;
