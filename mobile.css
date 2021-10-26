@@ -46,6 +46,12 @@ nav {
   font-weight: 800;
 }
 
+.collaboration:hover {
+  color: black;
+  font-weight: bold;
+  background: transparent;
+}
+
 main img {
   width: 100%;
 }
@@ -115,6 +121,11 @@ main img {
   width: 15px;
   margin-left: 10px;
   margin-top: 5px;
+}
+
+.see-project:hover {
+  background: #fff;
+  color: black;
 }
 
 .about {
@@ -197,4 +208,100 @@ main img {
   margin-left: 56px;
   color: #fff;
   font-weight: bold;
+}
+
+.form {
+  background: #f9f9fa;
+  height: auto;
+}
+
+.form img {
+  width: 150px;
+}
+
+.form-title {
+  font-family: 'Playfair Display', serif;
+  color: #1a2236;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 2em;
+  margin-left: 16px;
+}
+
+.form-info {
+  width: auto;
+  line-height: 20px;
+  color: #1a2236;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+input,
+textarea::placeholder {
+  font-size: 12px;
+}
+
+.i-name {
+  margin-bottom: 20px;
+  width: auto;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #dfdfe0;
+}
+
+.i-email {
+  width: auto;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid #dfdfe0;
+}
+
+.text {
+  width: auto;
+  height: 120px;
+  border-radius: 5px;
+  border: 2px solid #dfdfe0;
+  margin-bottom: 25px;
+}
+
+footer {
+  background: #1a2236;
+  width: auto;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.resume {
+  display: flex;
+  color: #92dcdc;
+  margin-left: 16px;
+}
+
+.resume img {
+  margin-left: 10px;
+}
+
+.social-media {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 16px;
+}
+
+.social-media li {
+  list-style-type: none;
+  margin-right: 40px;
 }
