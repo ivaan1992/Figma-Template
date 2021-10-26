@@ -262,3 +262,35 @@ input, textarea::placeholder {
   border: 2px solid #dfdfe0;
   margin-bottom: 25px;
 }
+
+footer {
+  background: #1a2236;
+  width: auto;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.resume {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  color: #92dcdc;
+  margin-left: 16px;
+}
+
+.resume img {
+  margin-left: 10px;
+}
+
+.social-media {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 16px;
+}
+
+.social-media li {
+  list-style-type: none;
+  margin-right: 40px;
+}
