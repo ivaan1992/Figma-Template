@@ -4,3 +4,34 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+@media(min-width: 801px) {
+  .hide-desktop {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+  }
+
+  .desktop-menu a {
+    list-style-type: none;
+    margin-right: 50px;
+    color:#1a2236;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .desktop-menu a:hover {
+    text-decoration: underline;
+    color:#1a2236;
+    font-weight: bold;
+  }
+
+
+}
