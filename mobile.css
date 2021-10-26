@@ -11,6 +11,10 @@ header {
   margin-right: 16px;
 }
 
+nav {
+  margin-top: 20px;
+}
+
 .headline {
   margin-left: 16px;
   margin-right: 16px;
@@ -144,13 +148,15 @@ main img {
   margin-left: 10px;
 }
 
+.skills {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
 .skills-blue {
   height: 280px;
   border: 2px solid #1c528a;
-  margin-left: 16px;
-  margin-right: 16px;
   margin-bottom: 15px;
-  font-family: 'Poppins', sans-serif;
   background: #1c528a;
   background-image: url("Images/ic_languages_mob.svg");
   background-repeat: no-repeat;
@@ -161,10 +167,7 @@ main img {
 .skills-pink {
   height: 280px;
   background: #e2505c;
-  margin-left: 16px;
-  margin-right: 16px;
   margin-bottom: 15px;
-  font-family: 'Poppins', sans-serif;
   background-image: url("Images/ic_framework.svg");
   background-repeat: no-repeat;
   background-position-x: right;
@@ -174,10 +177,7 @@ main img {
 .skills-yellow {
   height: 280px;
   background: #febf52;
-  margin-left: 16px;
-  margin-right: 16px;
   margin-bottom: 50px;
-  font-family: 'Poppins', sans-serif;
   background-image: url("Images/ic_skills.svg");
   background-repeat: no-repeat;
   background-position-x: right;
@@ -187,7 +187,7 @@ main img {
 .skills-title {
   margin-left: 35px;
   color: #fff;
-  font-weight: bold;
+  font-weight: 800;
   line-height: 4em;
 }
 
