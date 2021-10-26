@@ -46,6 +46,17 @@ nav {
   font-weight: 800;
 }
 
+.collaboration:hover {
+  color: black;
+  font-weight: bold;
+  background: transparent;
+}
+
+.see-project:hover {
+  background: #fff;
+  color: black;
+}
+
 main img {
   width: 100%;
 }
