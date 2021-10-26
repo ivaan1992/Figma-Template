@@ -198,3 +198,67 @@ main img {
   color: #fff;
   font-weight: bold;
 }
+
+.form {
+  background: #f9f9fa;
+  height: auto;
+}
+
+.form img {
+  width: 150px;
+}
+
+.form-title {
+  font-family: 'Playfair Display', serif;
+  color: #1A2236;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 2em;
+  margin-left: 16px;
+}
+
+.form-info {
+  width: auto;
+  line-height: 20px;
+  color:#1a2236;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+input, textarea::placeholder {
+  font-size: 12px;
+}
+
+.i-name {
+  margin-bottom: 20px;
+  width: auto;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #dfdfe0;
+}
+
+.i-email {
+  width: auto;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid #dfdfe0;
+}
+
+.text {
+  width: auto;
+  height: 120px;
+  border-radius: 5px;
+  border: 2px solid #dfdfe0;
+  margin-bottom: 25px;
+}
