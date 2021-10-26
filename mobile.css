@@ -52,11 +52,6 @@ nav {
   background: transparent;
 }
 
-.see-project:hover {
-  background: #fff;
-  color: black;
-}
-
 main img {
   width: 100%;
 }
@@ -126,6 +121,11 @@ main img {
   width: 15px;
   margin-left: 10px;
   margin-top: 5px;
+}
+
+.see-project:hover {
+  background: #fff;
+  color: black;
 }
 
 .about {
