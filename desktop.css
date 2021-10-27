@@ -219,24 +219,91 @@
   }
 
   .macbook {
+    width: 99%;
     display: flex;
-    border: 2px solid red;
-    margin-top: -107px;
-    margin-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .row {
+    width: 99%;
+    display: flex;
   }
 
   .pro16 {
-    width: 465px;
-    height: 270px;
+    width: 500px;
+    height: 290px;
   }
 
   .figures {
     width: 511px;
-    height: 250px;
+    height: 350px;
   }
 
   .pink-laptop {
+    width: 580px;
+    height: 314px;
+  }
+
+
+  .project-name-incomplete {
+    border: 3px solid transparent;
+    position: absolute;
+    top: 106rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 550px;
+    height: 208px;
+    margin-left: 59rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg, rgba(26, 34, 54, 0.95), rgba(26, 34, 54, 0.95));
+    backdrop-filter: blur(5px);
+  }
+
+  .iphone {
+    width: 800px;
+    height: 465px;
+    margin-top: -11px;
+  }
+
+  .last-pictures {
+    width: 36%;
+    border: 3px solid #1a2236;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .first-images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .circles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+  }
+
+  .yellow-circle {
+    width: 88px;
+    height: 88px;
+  }
+
+  .lap-yellow {
     width: 465px;
-    height: 270;
+    height: 270px;
+    margin-top: 440px;
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blue-circle {
+    width: 200px;
   }
 }
