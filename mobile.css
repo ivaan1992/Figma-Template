@@ -218,6 +218,7 @@
   .form {
     background: #f9f9fa;
     height: auto;
+    
   }
 
   .form img {
@@ -244,6 +245,7 @@
     margin-bottom: 25px;
   }
 
+
   form {
     display: flex;
     flex-direction: column;
@@ -258,14 +260,14 @@
 
   .i-name {
     margin-bottom: 20px;
-    width: auto;
+    width: 100%;
     height: 50px;
     border-radius: 5px;
     border: 2px solid #dfdfe0;
   }
 
   .i-email {
-    width: auto;
+    width: 100%;
     height: 50px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -273,7 +275,7 @@
   }
 
   .text {
-    width: auto;
+    width: 100%;
     height: 120px;
     border-radius: 5px;
     border: 2px solid #dfdfe0;

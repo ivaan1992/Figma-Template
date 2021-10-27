@@ -290,15 +290,15 @@
                     </ul>
                 </div>
            </section>   
-        <section class="about hide-mobile">
-                <div class="about-text">
-                    <h2 class="section-title">About</h2>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
-                    <button type="button" class="cv collaboration">Get my CV<img src="Images/ic_download.svg" alt="download-icon" >   </button>
-                </div>
-                <div class="plaid1">
+        <section class="about-desktop hide-mobile">
+           
+              <h2 class="section-title">About</h2>
+              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+              exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+              <button type="button" class="cv collaboration">Get my CV<img src="Images/ic_download.svg" alt="download-icon" >   </button>
+     
+              <div class="plaid">
                     <div class="skills-blue">  
                          <h3 class="skills-title">Languages</h3>
                            <ul class="languages-skills">
@@ -336,8 +336,6 @@
                           </li>
                       </ul>
                   </div>
-                </div>
-                <div class="plaid2">
                   <div class="skills-yellow">
                       <h3 class="skills-title">Skills</h3>
                       <ul class="languages-skills">
@@ -359,22 +357,24 @@
                       </ul>
                   </div>
                   <img class="language-dots"  src="Images/image_dots_with_teal.svg" alt="decoration">
-                </div> 
-               
-                 
+                </div>
         </section>   
            <section class="form">
-                <img class="hide-desktop"  src="Images/image_geometry_1.svg" alt="first-icon" />
-                <img class="hide-mobile" src="Images/image-geometry_6.svg" alt="form-icon">   
-                <h1 class="form-title">Get started</h1>
-                <p class="form-info">Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna.</p>
+            <img class="hide-desktop"  src="Images/image_geometry_1.svg" alt="first-icon" />
                 <form action="https://formspree.io/f/xnqllkjp" method="post">
-                    <input type="text" id="name" name="name" class="i-name" placeholder="Your name" required maxlength="30">
-                    <input type="email" id="email" name="email" class="i-email" placeholder="Your email" required maxlength="30">
-                    <textarea name="textarea"  class="text" placeholder="Enter your message here..." required maxlength="500"></textarea>           
-                    <button type="submit" class="collaboration">Start collaboration</button>
+                     
+                     <img class="hide-mobile form-icon" src="Images/image-geometry_6.svg" alt="form-icon">
+                      <h1 class="form-title">Get started</h1>
+                      <p class="form-info">Lorem ipsum dolor sit amet, 
+                      consectetur adipiscing elit, sed do eiusmod 
+                      tempor incididunt ut labore et dolore magna.</p>
+                    <div class="flex">
+                      <input type="text" id="name" name="name" class="i-name" placeholder="Your name" required maxlength="30">
+                      <input type="email" id="email" name="email" class="i-email" placeholder="Your email" required maxlength="30">
+                    </div>
+                      <textarea name="textarea"  class="text" placeholder="Enter your message here..." required maxlength="500"></textarea>           
+                    <button type="submit" class="collaboration submit">Start collaboration</button>
+                    <img class="hide-mobile form-icon" src="Images/image-geometry_7.svg" alt="form-icon">
                 </form>
           </section>
         </main>
