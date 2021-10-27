@@ -306,4 +306,141 @@
   .blue-circle {
     width: 200px;
   }
+
+  .about {
+    border: 2px solid red;
+    padding-left: 200px;
+  }
+
+  .plaid1 {
+    display: flex;
+  }
+
+  .plaid2 {
+    display: flex;
+  }
+
+  .skills-blue {
+    width: 289px;
+    height: 289px;
+    border: 2px solid #1c528a;
+    margin-bottom: 15px;
+    background: #1c528a;
+    background-image: url("Images/ic_languages_mob.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+
+  .skills-pink {
+    width: 289px;
+    height: 289px;
+    background: #e2505c;
+    margin-bottom: 15px;
+    background-image: url("Images/ic_framework.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+
+  .skills-yellow {
+    width: 289px;
+    height: 289px;
+    background: #febf52;
+    background-image: url("Images/ic_skills.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    margin-top: -15px;
+  }
+
+  .skills-title {
+    margin-left: 40px;
+    color: #fff;
+    font-weight: bolder;
+    line-height: 4em;
+  }
+
+  .languages-skills {
+    display: flex;
+    flex-direction: column;
+    margin-left: 56px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .language-dots {
+    margin-left: 67px;
+    margin-top: 49px;
+  }
+
+  .about-text {
+    margin: 2px solid red;
+  }
+
+  .form {
+    background: #f9f9fa;
+    height: auto;
+    background-image: url("Images/image-geometry_7.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+  }
+
+  .form-title {
+    font-family: 'Playfair Display', serif;
+    color: #1a2236;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 2em;
+    margin-left: 16px;
+  }
+
+  .form-info {
+    width: auto;
+    line-height: 20px;
+    color: #1a2236;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 25px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  input,
+  textarea::placeholder {
+    font-size: 12px;
+  }
+
+  .i-name {
+    margin-bottom: 20px;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #dfdfe0;
+  }
+
+  .i-email {
+    width: auto;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #dfdfe0;
+  }
+
+  .text {
+    width: auto;
+    height: 120px;
+    border-radius: 5px;
+    border: 2px solid #dfdfe0;
+    margin-bottom: 25px;
+  }
+
 }
