@@ -187,13 +187,16 @@
     font-weight: bold;
     background-color: #98dede;
     font-size: 15px;
-    box-shadow: 0px 0px 0px whitesmoke;
+    box-shadow: 0 0 0 whitesmoke;
     transition: box-shadow 1s;
   }
 
+  .social-media li {
+    margin-right: 50px;
+  }
+
   .language li:hover {
-    
-    box-shadow: 0px 0px 10px 2px whitesmoke;
+    box-shadow: 0 0 10px 2px whitesmoke;
   }
 
   .see-project {
@@ -505,9 +508,5 @@
     list-style-type: none;
     margin-right: 150px;
     align-items: center;
-  }
-
-  .social-media li {
-    margin-right: 50px;
   }
 }
