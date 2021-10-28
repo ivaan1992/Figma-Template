@@ -30,7 +30,7 @@ To cloning Mobile Version from this template I followed these steps:
 
 ![screenshot](https://user-images.githubusercontent.com/73128809/137974813-4aedf6a6-aa46-4716-837a-5c326c6dd637.png)
 
-<b><h3>Desktop Version 🖥️ 💻</h3></b>
+<b><h3>🖥️ Desktop Version 💻</h3></b>
 
 To cloning Desktop Version from this template I followed these steps: 
 
@@ -42,7 +42,7 @@ To cloning Desktop Version from this template I followed these steps:
 
 - Added images, edited some texts, edited the form, and used grid for the projects and about sections. 
 
-<b>This is the Desktop Version 🖥️ 💻</b>
+<b>🖥️ This is the Desktop Version 💻</b>
 
 ![Captura de pantalla de 2021-10-28 10-39-49](https://user-images.githubusercontent.com/73128809/139289614-463fc43e-cdac-4b15-afdd-ac5961ceff21.png)
 
