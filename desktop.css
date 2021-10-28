@@ -255,19 +255,6 @@
     width: 100%;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   /*About*/
   .about-desktop {
     display: flex;
@@ -275,7 +262,7 @@
     align-items: flex-start;
     width: 100%;
     height: auto;
-    margin-top: 800px;
+    margin-top: 250px;
   }
 
   .cv {
