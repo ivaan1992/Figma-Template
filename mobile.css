@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1024px) {
   .hide-mobile {
     display: none;
   }
@@ -88,6 +88,8 @@
   }
 
   .project-name {
+    display: flex;
+    flex-direction: column;
     background-color: #1a2236;
     color: #fff;
     height: 25vh;

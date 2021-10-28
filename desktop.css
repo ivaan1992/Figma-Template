@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-@media (min-width: 751px) {
+@media (min-width: 1025px) {
   .hide-desktop {
     display: none;
   }
