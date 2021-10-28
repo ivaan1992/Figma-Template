@@ -12,21 +12,39 @@ This project consists in cloning a Figma template.
 This was the template I choosed:
 <a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A9">Figma Template</a>
 
+I cloned Mobile and Desktop version of this template. 
+
 <b><h3>Mobile Version 📱</h3></b>
 
 To cloning Mobile Version from this template I followed these steps: 
 
-1-. Add some icons in the header section which includes some rhombuses and the hamburguer icon menu. 
+- Add some icons in the header section which includes some rhombuses and the hamburguer icon menu. 
 
-2-. Write my name and some description of the experience. 
+- Write my name and some description of the experience. 
 
-3-. Add a contact button. 
+- Add a contact button. 
 
-4. Add design images to the template. 
+- Add design images to the template. 
 
-<b>This is the Mobile Version</b>
+<b>This is the Mobile Version 📱</b>
 
 ![screenshot](https://user-images.githubusercontent.com/73128809/137974813-4aedf6a6-aa46-4716-837a-5c326c6dd637.png)
+
+<b><h3>Desktop Version 🖥️ 💻</h3></b>
+
+To cloning Desktop Version from this template I followed these steps: 
+
+- Opened another CSS file.
+
+- Copied and edited the original code.
+
+- Added media queries.
+
+- Added images, edited some texts, edited the form, and used grid for the projects and about sections. 
+
+<b>This is the Desktop Version 🖥️ 💻</b>
+
+![Captura de pantalla de 2021-10-28 10-39-49](https://user-images.githubusercontent.com/73128809/139289614-463fc43e-cdac-4b15-afdd-ac5961ceff21.png)
 
 
 ## Built With
