@@ -5,7 +5,7 @@
 This is my first professional project I'm making for Microverse.
 
 You can see it in this link 
-https://ivaan1992.github.io/Figma-Template/
+
 
 This project consists in cloning a Figma template. 
 
