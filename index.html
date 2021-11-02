@@ -12,12 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="mobile.css" />
     <link rel="stylesheet" href="desktop.css" /> 
-    <title>Figma Template</title>
+    <title>Ivan's Portfolio</title>
 </head>
 <body>
     <div class="content">
          <header>
-             <img class="hide-desktop"  src="Images/image_geometry_1.svg" alt="first-icon">
+             <img class="hide-desktop"  src="Images/image_geometry_1.svg" alt="">
              <nav class="hide-desktop">
                <a href="#"><img src="Images/ic_menu.svg" alt="mobile-menu"></a>
              </nav>
@@ -41,7 +41,7 @@
         <main>
             <section class="headline">        
                 <div class="hello">
-                    <h1 class="name-title">Ivan Gaona</h1>
+                    <h2 class="name-title">Ivan Gaona</h2>
                     <p class="info">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
                     If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
                     <button type="button" class="collaboration">Start collaboration</button>          
@@ -51,7 +51,7 @@
                     <img src="Images/image-geometry_1.svg" alt="desktop-design">    
                 </div>  
             </section>
-             <img class="hide-desktop" src="Images/image_geometry_2.svg" alt="second-icon" />
+             <img class="hide-desktop" src="Images/image_geometry_2.svg" alt="" />
              <section class="projects-mobile hide-desktop">
                 <h2 class="section-title">Projects</h2>
                 <div class="laptop-image">
@@ -70,7 +70,7 @@
                             JavaScript
                         </li>
                     </ul>
-                    <button type="button" class="see-project">See this project<img src="Images/Union.svg" alt="arrow-icon"></button>
+                    <button type="button" class="see-project">See this project<img src="Images/Union.svg" alt="show-project"></button>
                 </div>
                 <div class="laptop-image">
                     <img src="Images/Rectangle_21.png" alt="laptop">
@@ -88,7 +88,7 @@
                             JavaScript
                         </li>
                     </ul>
-                    <button type="button" class="see-project">See this project<img src="Images/Union.svg" alt="arrow-icon"></button>
+                    <button type="button" class="see-project">See this project<img src="Images/Union.svg" alt="show-project"></button>
                 </div>
                 <div class="laptop-image">
                     <img src="Images/Rectangle_21(2).png" alt="laptop">
@@ -106,7 +106,7 @@
                             JavaScript
                         </li>
                     </ul>
-                    <button type="button" class="see-project">See this project<img src="Images/Union.svg" alt="arrow-icon"></button>
+                    <button type="button" class="see-project">See this project<img src="Images/Union.svg" alt="show-project"></button>
                 </div>
                 <div class="laptop-image">
                     <img src="Images/Rectangle_21(3).png" alt="laptop">
@@ -124,7 +124,7 @@
                             JavaScript
                         </li>
                     </ul>
-                    <button type="button" class="see-project">See this project<img src="Images/Union.svg" alt="arrow-icon"></button>
+                    <button type="button" class="see-project">See this project<img src="Images/Union.svg" alt="show-project"></button>
                 </div>
                 <div class="laptop-image">
                     <img src="Images/Rectangle_21(4).png" alt="laptop">
@@ -369,7 +369,7 @@
           <section class="form">
             <img class="hide-desktop"  src="Images/image_geometry_1.svg" alt="first-icon" /> 
                           <div class="get-started">
-                              <h1 class="form-title">Get started</h1>
+                              <h2 class="form-title">Get started</h2>
                               <p class="form-info hide-desktop">Lorem ipsum dolor sit amet, 
                               consectetur adipiscing elit, sed do eiusmod 
                               tempor incididunt ut labore et dolore magna.</p>
@@ -380,11 +380,17 @@
                                 ut aliquip ex ea commodo consequat.</p>          
                               <form action="https://formspree.io/f/xnqllkjp" method="post">     
                                 <div class="flex">
-                                  <input type="text" id="name" name="name" class="i-name" placeholder="Your name" required maxlength="30">
+                                  <label class="up" for="name">Your name 
+                                    <input type="text" id="name" name="name" class="i-name" placeholder="Your name" required maxlength="30">
+                                  </label>
+                                 <label  class="up" for="email" > Your email
                                    <input type="email" id="email" name="email" class="i-email" placeholder="Your email" required maxlength="30">
+                                 </label> 
                                 </div>
-                                 <textarea name="textarea"  class="text" placeholder="Enter your message here..." required maxlength="500"></textarea>           
-                                   <button type="submit" class="collaboration submit">Start collaboration</button>
+                                  <label class="up" for="message">Message
+                                    <textarea name="textarea"  class="text" id="message"   placeholder="Enter your message here..." required maxlength="500"></textarea>           
+                                  </label> 
+                                    <button type="submit" class="collaboration submit">Start collaboration</button>
                               </form>
                           </div>    
           </section>
