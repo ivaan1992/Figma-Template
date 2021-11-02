@@ -472,6 +472,11 @@
     font-size: 12px;
   }
 
+  .up {
+    display: flex;
+    flex-direction: column;
+  }
+
   .i-name {
     width: 335px;
     height: 50px;
