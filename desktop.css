@@ -99,6 +99,7 @@
 
   .projects-desktop {
     display: grid;
+    grid-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -225,6 +226,11 @@
     flex-direction: column;
   }
 
+  .macbook img {
+    width: 100%;
+    max-width: 836px;
+  }
+
   .figures img {
     width: 100%;
     max-width: 900px;
@@ -232,10 +238,12 @@
   }
 
   .pink {
+    width: 100%;
+    max-width: 800px;
     border: 3px solid red;
     height: 85vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .project-name-incomplete {
@@ -260,6 +268,8 @@
 
   .gray {
     margin-top: 10px;
+    width: 100%;
+    max-width: 470px;
   }
 
   .red-rombo {
@@ -275,7 +285,7 @@
 
   .iphone img {
     width: 100%;
-    max-width: 511px;
+    max-width: 836px;
   }
 
   .last-circles {
@@ -284,6 +294,7 @@
     align-self: end;
     width: 100%;
     justify-content: space-between;
+    border: 3px solid yellow;
   }
 
   .yellow {
