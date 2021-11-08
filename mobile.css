@@ -25,6 +25,11 @@
     margin-top: 20px;
   }
 
+  .mobile-menu {
+    list-style-type: none;
+    
+  }
+
   .headline {
     margin-left: 16px;
     margin-right: 16px;
