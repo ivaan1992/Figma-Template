@@ -25,14 +25,48 @@
     margin-top: 20px;
   }
 
+
+  .mobile-menu {
+    width: 100%;
+    height: auto;
+    background-image: url("Images/image_geometry_menu_1.png"), url("Images/image_geometry_menu_2.png");
+    background-repeat: no-repeat;
+    background-size: 263px, 320px;
+    background-position: top left, bottom center;
+    background-color: white;
+    position: fixed;
+    transform: translateY(0%);
+    transition: transform 0.2s;
+    top: -20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    color: red;
+    list-style: none;
+  }
+
   .mobile-menu ul{
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
   }
 
   .mobile-menu li {
-    line-height: 50px;
+    line-height: 14vw;
+    font-size: 6vw;
   }
 
+  .xIcon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+    margin-right: 33px;
+
+  }
   .headline {
     margin-left: 16px;
     margin-right: 16px;
