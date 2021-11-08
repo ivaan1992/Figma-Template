@@ -25,9 +25,12 @@
     margin-top: 20px;
   }
 
-  .mobile-menu {
+  .mobile-menu ul{
     list-style-type: none;
-    
+  }
+
+  .mobile-menu li {
+    line-height: 50px;
   }
 
   .headline {
