@@ -1,18 +1,16 @@
-//Hamburger menu 
+// Hamburger menu
 const menu = document.querySelector('.mobile-menu');
 const ham = document.querySelector('.hamburger-menu');
 const xIcon = document.querySelector('.xIcon');
 
-function toggleMenu(){
-    if (menu.classList.contains('showMenu')){
+function toggleMenu() {
+  if (menu.classList.contains('showMenu')) {
     menu.classList.remove('showMenu');
     xIcon.style.display = 'none';
-    } else {
+  } else {
     menu.classList.add('showMenu');
     xIcon.style.display = 'block';
-    }
+  }
 }
 
 ham.addEventListener('click', toggleMenu);
-
-const menuLinks = document.querySelectorAll('.menuLink');
