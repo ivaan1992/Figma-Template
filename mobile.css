@@ -26,6 +26,9 @@
   }
 
   .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: auto;
     background-image: url("Images/image_geometry_menu_1.png"), url("Images/image_geometry_menu_2.png");
@@ -41,7 +44,6 @@
     right: 0;
     bottom: 0;
     z-index: 99;
-    color: red;
     list-style: none;
   }
 
@@ -71,9 +73,10 @@
 
   .xIcon {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     margin-top: 22px;
-    margin-left: 33px;
+    margin-left: 328px;
   }
 
   .headline {
