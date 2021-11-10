@@ -27,7 +27,7 @@ buttons.forEach(button => {
         description: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi', 
         'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
         technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-        image: ['/Images/Rectangle34.png', '/Images/Rectangle39.png', '/Images/Rectangle40.png', '/Images/Rectangle41.png', '/Images/Rectangle42.png' ],
+        image: ['./Images/Rectangle34.png', './Images/Rectangle39.png', './Images/Rectangle40.png', './Images/Rectangle41.png', './Images/Rectangle42.png' ],
         liveURL: 'https://ivaan1992.github.io/Figma-Template/',
         link: 'https://github.com/ivaan1992'
       };
