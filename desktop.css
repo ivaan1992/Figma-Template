@@ -538,7 +538,7 @@
     align-items: center;
   }
 
-  /*PopUp Window*/
+  /* PopUp Window */
 
   .popup-open {
     display: block;
@@ -557,14 +557,13 @@
   .popup-project {
     display: block;
   }
-  
+
   .xIcon {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     margin-right: 54px;
     margin-top: 30px;
-
   }
 
   .allpopup {
@@ -575,7 +574,6 @@
     flex-direction: column;
     position: fixed;
     top: 0;
-   
     overflow: auto;
     z-index: 10;
     border: 45px solid #1c2137;
@@ -622,6 +620,7 @@
   .images img {
     width: 50%;
   }
+
   .small-images {
     display: flex;
     width: 50%;
@@ -660,7 +659,6 @@
     background-repeat: no-repeat;
     background-position: 182px;
     border: 1px solid #1a2236;
-   
   }
 
   .modal-button2 {
