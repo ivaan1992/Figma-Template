@@ -17,20 +17,26 @@ ham.addEventListener('click', toggleMenu);
 
 // Pop up window
 
-const popup = document.getElementById('popup-project');
-const buttons = document.querySelectorAll(".see-project")
+const buttons = document.querySelectorAll('.see-project');
 
-buttons.forEach(button => {
-  button.addEventListener("click", () => {
+buttons.forEach((button) => {
+  button.addEventListener('click', () => {
     const projects = {
-        name: 'Project name goes here',
-        description: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi', 
+      name: 'Project name goes here',
+      description: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
         'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
-        technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-        image: ['./Images/Rectangle34.png', './Images/Rectangle39.png', './Images/Rectangle40.png', './Images/Rectangle41.png', './Images/Rectangle42.png' ],
-        liveURL: 'https://ivaan1992.github.io/Figma-Template/',
-        link: 'https://github.com/ivaan1992'
-      };
+      technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
+      image: ['./Images/Rectangle34.png', './Images/Rectangle39.png', './Images/Rectangle40.png', './Images/Rectangle41.png', './Images/Rectangle42.png'],
+      liveURL: 'https://ivaan1992.github.io/Figma-Template/',
+      link: 'https://github.com/ivaan1992',
+    };
+
+    function createElement(htmlString) {
+      const div = document.createElement('div');
+      div.innerHTML = htmlString;
+
+      return div.firstElementChild;
+    }
 
     const popUpElement = createElement(`
       <div class="allpopup">
@@ -39,7 +45,7 @@ buttons.forEach(button => {
         </span>
         <h2 class="popup-name">${projects.name}</h2>
         <ul class="tech">
-            ${projects.technologies.map(tech => `<li class="border-lang">${tech}</li>`).join("")}
+            ${projects.technologies.map((tech) => `<li class="border-lang">${tech}</li>`).join('')}
         </ul>
         <div class="images">
             <img src="${projects.image[0]}" alt="" class="">
@@ -61,23 +67,14 @@ buttons.forEach(button => {
           </form>
         </div>
       </div>
-    `)
-    popUpElement.querySelector(".xIcon").addEventListener("click", () => {
-      popUpElement.remove()
-    })
+    `);
+    popUpElement.querySelector('.xIcon').addEventListener('click', () => {
+      popUpElement.remove();
+    });
 
-    document.body.prepend(popUpElement)
-
-  })
-})
-
-
-function createElement(htmlString) {
-  const div = document.createElement("div")
-  div.innerHTML = htmlString
-
-  return div.firstElementChild
-}
+    document.body.prepend(popUpElement);
+  });
+});
 
 // Validate contact Form
 
@@ -99,4 +96,3 @@ contactForm.addEventListener('submit', (sub) => {
     sub.preventDefault();
   }
 });
-
