@@ -177,8 +177,11 @@
   }
 
   .images {
-    margin-left: 16px;
-    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
     margin-bottom: 30px;
   }
 
