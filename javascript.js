@@ -97,7 +97,7 @@ contactForm.addEventListener('submit', (sub) => {
   }
 });
 
-// Data
+// Data browser 
 
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
