@@ -99,9 +99,9 @@ contactForm.addEventListener('submit', (sub) => {
 
 // Data browser
 
-const nameInput = document.getElementById('name');
-const emailInput = document.getElementById('email');
-const textInput = document.getElementById('message');
+const nameInput = document.querySelector('name');
+const emailInput = document.querySelector('email');
+const textInput = document.querySelector('message');
 
 function storeForm() {
   const data = {
