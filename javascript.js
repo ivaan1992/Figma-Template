@@ -97,13 +97,13 @@ contactForm.addEventListener('submit', (sub) => {
   }
 });
 
-// Data browser 
+// Data browser
 
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const textInput = document.getElementById('message');
 
-function storeForm(){ 
+function storeForm() {
   const data = {
     name: nameInput.value,
     email: emailInput.value,
@@ -129,4 +129,3 @@ window.addEventListener('load', () => {
   emailInput.value = parseWindow.email;
   textInput.value = parseWindow.text;
 });
-
